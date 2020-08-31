@@ -1,0 +1,201 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+  }
+.profile-image{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+}
+.top-section{
+    /* position: relative; */
+    height: 200px;
+    padding: 0px;
+}
+h1{
+    font-size: 2.6rem;
+    color: #2a347c;
+    font-family: 'Sacramento', cursive;
+
+}
+.top-section-info-right{
+    padding-right: 250px;
+}
+.top-section-paragraph{
+    font-size: 20px;
+    color: grey;
+}
+
+#logo{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+
+
+}
+nav .navbar-nav li a{
+    /* color: white !important; */
+    margin: 5px 20px;
+    padding: 0px;
+    font-weight: bold;
+}
+.objective{
+
+    margin-top: 150px;
+}
+
+.objective-para{
+    line-height: 2;
+    padding: 0px 150px;
+    color: dimgrey;
+    margin-top: 20px;
+    font-size: 20px;
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+    color: #2a347c;
+}
+
+.objective-container{
+    padding: 20px 0px 10px 0px;
+}
+
+.skill-table{
+    padding: 0 40% 0 10%;
+    align-content: left;
+    color: white;
+}
+.skill-container{
+    background-image: url("background2.jpg");
+    padding-top: 20px;
+}
+.about-container{
+    padding: 0 2%;
+}
+.about h3{
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.table{
+    font-size: 1.4rem;
+}
+
+.about .table{
+    font-size: 1.2rem;
+}
+
+
+
+.formtext{
+    font-size: 1.4rem;
+    color: rgb(71, 71, 71);
+    font-weight: 600;
+}
+.contact-image{
+    width: 100%;
+    height: auto;
+}
+.contact-section{
+    padding-top: 20px;
+}
+.contact-container{
+    margin: 10px;
+    padding: 40px;
+}
+.contact-box{
+    padding: 20px 10px;
+}
+.project-item{
+    margin: 4% 0px;
+    padding: 0px 10%;
+}
+.project-item-heading{
+    color: #26119e;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.project p{
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+footer p{
+    font-size: 1.2rem;
+}
+footer a{
+    color: white;
+    margin: 0px 10px;
+    transition: 1000ms;
+}
+footer a:hover{
+    color: grey;
+}
+
+
+@media (max-width: 768px){
+    .top-section{
+        /* position: relative; */
+        height: auto;
+    }
+    .profile-image{
+        max-width: 40%;
+        height: auto;
+    }
+    h1{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .top-section-info-right{
+        margin-top: 20%;
+        padding: 5% 4% 5% 4%;
+        text-align: justify;
+    }
+    .objective{
+        margin-top: -10px;
+    }
+    .objective-para{
+        padding: 0px 5%;
+        text-align: justify;
+    }
+    .table {
+        font-size: 1.25rem;
+    }
+    .skill-table{
+        padding: 0px;
+    }
+    #about .px-5{
+        padding: 0px;
+    }
+    .contact-box{
+        padding: 5px 10px5;
+        margin: 0px;
+    }
+    #contact .m-4{
+        margin: 0px;
+    }
+    .contact-container {
+        margin: 0px;
+        padding: 0px;
+    }
+    .project-item{
+       padding: 0px 4%;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width : 1000px){
+    .top-section-info-right{
+        padding-right: 100px;
+    }
+    .objective{
+        margin-top: 100px;
+    }
+
+}
+@media (min-width: 1000px) and (max-width : 1200px){
+    .objective{
+        margin-top: 100px;
+    }
+}
